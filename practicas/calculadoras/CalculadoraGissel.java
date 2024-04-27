@@ -5,19 +5,19 @@ public class CalculadoraGissel {
     public static void main(String args[]){
         // Los Valores que haremos calculo.
 
-        float numero1 = 30;
-        float numero2 = 40;
+        float n1 = 30;
+        float n2 = 40;
 
-        // Suma
-        float suma = numero1 + numero2;
-        float resta = numero1 - numero2;
-        float mult = numero1 * numero2;
-        float div = numero1/numero2;
+        float suma = n1 + n2;
+        float resta = n1 - n2;
+        float mult = n1 * n2;
+        float div = n1 / n2;
+
 
         System.out.println("Suma: "+suma);
-        System.out.println("resta: "+resta);
-        System.out.println("multiplicación: "+mult);
-        System.out.println("div: "+div);
+        System.out.println("Resta: "+resta);
+        System.out.println("Multiplicacion: "+mult);
+        System.out.println("Division: "+div);
 }
     
 }
