@@ -1,4 +1,5 @@
-package ejerciciosClase.calculadoraClases;
+
+package EjerciciosClase.CalculadoraClases;
 
 public class Operaciones {
     double valor1;
