@@ -1,11 +1,11 @@
-package ejerciciosClase.CalculadoraClases;
+package elizabethcalderon.calculadoraClases;
 
 public class Calculadora {
     public static void main(String[] args) {
         Operaciones operacion = new Operaciones();
 
-        double valor1 = 30;
-        double valor2 = 31;
+        double valor1 = 50;
+        double valor2 = 73;
 
         // Forma1
         double suma = operacion.sumar(valor1, valor2);
@@ -19,5 +19,8 @@ public class Calculadora {
 
         // Multiplicar
         operacion.multiplicar(valor1, valor2);
+
+        //Dividir
+        System.out.prinln("division Ejmeplo 4: " + operacion.dividir(valor1, valor2));
     }
 }
