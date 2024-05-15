@@ -1,6 +1,7 @@
-package EjerciciosClase.CalculadoraClases.Maricela_Cruz;
+package practicas.calculadoraClases.Maricela_Cruz;
 
 public class Calculadora {
+
     public static void main(String[] args) {
         Operaciones operacion = new Operaciones();
 
@@ -18,8 +19,13 @@ public class Calculadora {
         System.out.println("Resta " + operacion.restar(valor1, valor2));
 
         // Multiplicar
-        operacion.multiplicar(valor1, valor2);
-    }
+        System.out.println("Multiplicar"+operacion.multiplicar(valor1,valor2));
 
-    
+        //Division
+        System.out.println("Division"+operacion.dividir(valor1,valor2));
+
+        //Residuo
+        System.out.println("Residuo"+operacion.residuo(valor1, valor2));
+        
+    }
 }
