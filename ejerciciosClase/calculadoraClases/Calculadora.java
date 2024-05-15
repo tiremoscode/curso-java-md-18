@@ -1,4 +1,4 @@
-package ejerciciosClase.CalculadoraClases;
+package EjerciciosClase.CalculadoraClases;
 
 public class Calculadora {
     public static void main(String[] args) {
