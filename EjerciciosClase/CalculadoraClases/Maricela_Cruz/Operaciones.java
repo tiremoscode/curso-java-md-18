@@ -1,5 +1,4 @@
-
-package EjerciciosClase.CalculadoraClases;
+package EjerciciosClase.CalculadoraClases.Maricela_Cruz;
 
 public class Operaciones {
     double valor1;

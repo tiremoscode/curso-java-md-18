@@ -1,4 +1,4 @@
-package EjerciciosClase.CalculadoraClases;
+package EjerciciosClase.CalculadoraClases.Maricela_Cruz;
 
 public class Calculadora {
     public static void main(String[] args) {
@@ -20,4 +20,6 @@ public class Calculadora {
         // Multiplicar
         operacion.multiplicar(valor1, valor2);
     }
+
+    
 }
