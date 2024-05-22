@@ -24,7 +24,7 @@ public class Calculadora {
         // Multipliacion
         System.out.println("Multiplicar" + operacion.multiplicar(valor1, valor2));
 
-        // Residuo
+        // Porcentaje
         System.out.println("Porcentaje" + operacion.porcentaje(valor1, valor2));
     }
 }
