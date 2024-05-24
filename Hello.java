@@ -1,7 +1,6 @@
 public class Hello {
     public static void main(String[] args) {
-        System.out.println("Hoola mundo!!");
+        System.out.println("Hoola mundi!!");
     }   
 }
 
-//se corrige hola mundi//
