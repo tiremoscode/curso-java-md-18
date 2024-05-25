@@ -10,14 +10,14 @@ public class Pokedex {
         PokemonTierra sandslash = new PokemonTierra("sandslash", 29.5, 50, 7);
         PokemonTierra dugtrio = new PokemonTierra("dugtrio", 33.3, 40, 8);
         PokemonElectrico raichu = new PokemonElectrico("raichu", 30.0, 60, 4);
-        PokemonAgua poliwag = new PokemonAgua("poliwag", 12.4, 30, 3);
+        PokemonAgua poliwagg = new PokemonAgua("poliwag", 12.4, 30, 3);
 
         charmander.atacar();
         squirtle.atacar();
         sandslash.atacar();
         dugtrio.atacar();
         raichu.atacar();
-        poliwag.atacar();
+        poliwagg.atacar();
 
         // Quiero saber la edad de Charmander
         // y el peso de Squirtle
@@ -26,7 +26,7 @@ public class Pokedex {
         System.out.println("nivel de mi Dugtrio: " + dugtrio.getNivel());
         System.out.println("Peso de mi raichu: " + raichu.getPeso());
         System.out.println( "Edad de mi sandslash: " + sandslash.getEdad());
-        System.out.println("nivel de mi poliwag: " + poliwag.getNivel());
+        System.out.println("nivel de mi poliwag: " + poliwagg.getNivel());
 
     }
 }
