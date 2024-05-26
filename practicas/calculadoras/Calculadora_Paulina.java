@@ -1,25 +1,21 @@
 package practicas.calculadoras;
 
 public class Calculadora_Paulina {
-    double valor1;
-    double valor2;
-
-     public double sumar(double valor1, double valor2) {
-        return valor1 + valor2;
-     }
-
-      public double restar(double valor1, double valor2) {
-        return valor1 - valor2;
-      }
-
-      public double multiplicar(double valor1, double valor2) {
-        return valor1 * valor2;
+    public static void main(String[] args) {
         
-      }
+    }
+    double valor1 = 30; 
+    double valor2 = 29;
 
-      public double dividir(double valor1, double valor2) {
-        return valor1 / valor2;
-        
-      }
+     double suma = operacion.sumar(valor1, valor2);
+     System.out.println("El resultado de la suma es:" + suma);
+     double resta = operacion.restar(valor1, valor2);
+     System.out.println("El resultado de la resta:" + resta);
+     double multiplicacion = operacion.multiplicar(valor1, valor2);
+     System.out.println("El resultado de la multiplicacion es:" + multiplicacion);
+     double division = operacion.dividir(valor1, valor2);
+     System.out.println("El resultado de la division es:" + division);
+     double resir = operacion.residuo(valor1, valor2);
+     System.out.println("El resultado del residuo es:" + resir);
     
 }
