@@ -1,8 +1,10 @@
-package practicas.pokemon.maricela_cruz;
+package practicas.pokemon.Cecilia_ortega;
+
 interface TipoPokemon {
     String getTipoPokemon();
 }
- class Pokemon {
+
+class Pokemon {
     // Nombre
     // Peso
     // Nivel

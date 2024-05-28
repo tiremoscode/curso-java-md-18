@@ -1,13 +1,15 @@
-package practicas.pokemon.maricela_cruz;
-interface TipoPokemon {
+package practicas.pokemon.jessica_hernandez;
+
+interface TipoPokemon{
     String getTipoPokemon();
 }
- class Pokemon {
-    // Nombre
-    // Peso
-    // Nivel
-    // edad
-    // Tipo
+
+class Pokemon {
+    //nombre
+    //Peso
+    //Nivel
+    //Edad
+    //tipo
 
     private String nombre;
     private double peso;
@@ -20,24 +22,28 @@ interface TipoPokemon {
         this.nivel = nivel;
         this.edad = edad;
     }
-
-    public void atacar() {
-        System.out.println(nombre + " esta atacando!!");
+    public void atacar(){
+        System.out.println(nombre + "esta atacando!!");
     }
-
-    public String getNombre() {
+    
+    public String getNombre(){
         return nombre;
+
     }
 
-    public double getPeso() {
+    public double getPeso(){
         return peso;
+    
     }
 
-    public int getNivel() {
+    public int getNivel(){
         return nivel;
+
     }
 
-    public int getEdad() {
+    public int getEdad(){
         return edad;
     }
+
 }
+

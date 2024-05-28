@@ -1,5 +1,4 @@
 package practicas.pokemon.maricela_cruz;
-
 class PokemonAgua extends Pokemon implements TipoPokemon {
     public PokemonAgua(String nombre, double peso, int nivel, int edad) {
         super(nombre, peso, nivel, edad);

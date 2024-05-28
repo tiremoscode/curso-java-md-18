@@ -1,6 +1,9 @@
-package ejerciciosClase.Pokemon;
+package ejerciciosclase.Pokemon;
 
 public class Pokedex {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         PokemonFuego charmander = new PokemonFuego("Charmander", 8.5, 50, 5);
         PokemonAgua squirtle = new PokemonAgua("Squirtle", 9.0, 50, 6);

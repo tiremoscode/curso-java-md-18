@@ -1,4 +1,4 @@
-package ejerciciosclase.Pokemon;
+package practicas.pokemon.Cecilia_ortega;
 
 class PokemonAgua extends Pokemon implements TipoPokemon {
     public PokemonAgua(String nombre, double peso, int nivel, int edad) {

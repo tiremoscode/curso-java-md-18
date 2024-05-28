@@ -1,6 +1,4 @@
 package practicas.pokemon.maricela_cruz;
-
-
 class PokemonFuego extends Pokemon implements TipoPokemon {
     public PokemonFuego(String nombre, double peso, int nivel, int edad) {
         super(nombre, peso, nivel, edad);

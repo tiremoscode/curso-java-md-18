@@ -1,8 +1,10 @@
-package practicas.pokemon.maricela_cruz;
+package pokemon.yaretzy_ramirez;
+
 interface TipoPokemon {
     String getTipoPokemon();
 }
- class Pokemon {
+
+class Pokemon {
     // Nombre
     // Peso
     // Nivel
@@ -22,7 +24,7 @@ interface TipoPokemon {
     }
 
     public void atacar() {
-        System.out.println(nombre + " esta atacando!!");
+        System.out.println(nombre + " está atacando!");
     }
 
     public String getNombre() {
