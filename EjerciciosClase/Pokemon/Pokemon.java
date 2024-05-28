@@ -1,4 +1,4 @@
-package ejerciciosClase.Pokemon;
+package ejerciciosclase.Pokemon;
 
 interface TipoPokemon {
     String getTipoPokemon();
