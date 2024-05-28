@@ -1,4 +1,4 @@
-package ejerciciosClase.Calculadora_Andy_san;
+package practicas.calculadoraClases.calculadora_andy_san;
 
 public class Calculadora {
 
