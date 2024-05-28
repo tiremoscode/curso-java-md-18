@@ -1,4 +1,4 @@
-package practicas.pokemon.elizabeth_calderon;
+package practicas.pokemon.nancy_martinez;
 
 class PokemonFuego extends Pokemon implements TipoPokemon {
     public PokemonFuego(String nombre, double peso, int nivel, int edad) {
@@ -16,3 +16,4 @@ class PokemonFuego extends Pokemon implements TipoPokemon {
         System.out.println(getNombre()+ " lanza una llamarada!!");
     }
 }
+

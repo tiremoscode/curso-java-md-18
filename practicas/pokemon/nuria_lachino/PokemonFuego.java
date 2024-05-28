@@ -1,4 +1,4 @@
-package practicas.pokemon.elizabeth_calderon;
+package practicas.pokemon.nuria_lachino;
 
 class PokemonFuego extends Pokemon implements TipoPokemon {
     public PokemonFuego(String nombre, double peso, int nivel, int edad) {
