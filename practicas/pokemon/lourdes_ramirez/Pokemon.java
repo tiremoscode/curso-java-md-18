@@ -1,6 +1,5 @@
 package practicas.pokemon.lourdes_ramirez;
 
-
 interface TipoPokemon {
     String getTipoPokemon();
 }
@@ -44,4 +43,3 @@ class Pokemon {
         return edad;
     }
 }
-

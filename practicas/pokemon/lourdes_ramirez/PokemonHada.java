@@ -16,4 +16,3 @@ class PokemonHada extends Pokemon implements TipoPokemon {
         System.out.println(getNombre() + " lanza un brillo mágico!!");
     }
 }
-
