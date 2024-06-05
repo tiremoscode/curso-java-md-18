@@ -2,8 +2,8 @@
 
 Fuentes:
 
-Instalación de Docker: https://www.youtube.com/watch?v=_et7H0EQ8fY
-Instalación de WSL2: https://learn.microsoft.com/en-us/windows/wsl/install-manual
+- Instalación de Docker: https://www.youtube.com/watch?v=_et7H0EQ8fY
+- Instalación de WSL2: https://learn.microsoft.com/en-us/windows/wsl/install-manual
 
 ## Instrucciones
 
