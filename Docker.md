@@ -1,6 +1,9 @@
 ## Instalación y Uso de Docker
 
-Fuente: https://www.youtube.com/watch?v=_et7H0EQ8fY
+Fuentes:
+
+- Instalación de Docker: https://www.youtube.com/watch?v=_et7H0EQ8fY
+- Instalación de WSL2: https://learn.microsoft.com/en-us/windows/wsl/install-manual
 
 ## Instrucciones
 
@@ -75,6 +78,7 @@ javac -cp "ejerciciosClase/alumnas/lib/*;." ejerciciosClase/alumnas/Grupo18.java
 ```
 
 ## MacOS / Linux
+
 ```bash
 javac -cp "ejerciciosClase/alumnas/lib/*" ejerciciosClase/alumnas/Grupo18.java
 ```
@@ -88,6 +92,7 @@ java -cp "ejerciciosClase/alumnas/lib/*;." ejerciciosClase.alumnas.Grupo18
 ```
 
 ## MacOS / Linux
+
 ```bash
 java -cp "ejerciciosClase/alumnas/lib/*:." ejerciciosClase.alumnas.Grupo18
 ```
