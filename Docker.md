@@ -1,6 +1,9 @@
 ## Instalación y Uso de Docker
 
-Fuente: https://www.youtube.com/watch?v=_et7H0EQ8fY
+Fuentes:
+
+- Instalación de Docker: https://www.youtube.com/watch?v=_et7H0EQ8fY
+- Instalación de WSL2: https://learn.microsoft.com/en-us/windows/wsl/install-manual
 
 ## Instrucciones
 
@@ -60,8 +63,8 @@ CREATE TABLE alumnas (
 
 ```sql
 INSERT INTO alumnas (nombre, edad) VALUES
-('Magaly Gonzalez', 31),
-('Lirio Pérez', 21);
+('Ana angon', 24),
+('Maricela Cruz', 26);
 ```
 
 10.- Descargar previamente el MySQL-Connector desde esta [url](https://dev.mysql.com/downloads/connector/j/).
@@ -71,12 +74,13 @@ INSERT INTO alumnas (nombre, edad) VALUES
 ## Windows
 
 ```bash
-javac -cp "ejerciciosClase/alumnas/lib/*;." ejerciciosClase/alumnas/Grupo18.java
+javac -cp "ejercicios_clase/alumnas/lib/*;." ejercicios_clase/alumnas/Grupo18.java
 ```
 
 ## MacOS / Linux
+
 ```bash
-javac -cp "ejerciciosClase/alumnas/lib/*" ejerciciosClase/alumnas/Grupo18.java
+javac -cp "ejercicios_clase/alumnas/lib/*" ejercicios_clase/alumnas/Grupo18.java
 ```
 
 12.- Ejecutar nuestro proyecto
@@ -84,10 +88,11 @@ javac -cp "ejerciciosClase/alumnas/lib/*" ejerciciosClase/alumnas/Grupo18.java
 ## Windows
 
 ```bash
-java -cp "ejerciciosClase/alumnas/lib/*;." ejerciciosClase.alumnas.Grupo18
+java -cp "ejercicios_clase/alumnas/lib/*;." ejercicios_clase.alumnas.Grupo18
 ```
 
 ## MacOS / Linux
+
 ```bash
-java -cp "ejerciciosClase/alumnas/lib/*:." ejerciciosClase.alumnas.Grupo18
+java -cp "ejercicios_clase/alumnas/lib/*:." ejercicios_clase.alumnas.Grupo18
 ```
