@@ -31,12 +31,31 @@ public class Veterinaria {
                 break;
             case 3:
                 System.out.println("Actualizar información de un animalito");
+                scanner.nextLine();
+                System.out.println("Ingresa el id del animalito a actualizar");
+                int id = scanner.nextInt();
+                scanner.nextLine();
+                System.out.println("Ingresa el nombre de la mascota");
+                nombreMascota = scanner.nextLine();
+                System.out.println("Ingresa la raza de la mascota");
+                raza = scanner.nextLine();
+                System.out.println("Ingresa el nombre del propietario");
+                nombrePropietario = scanner.nextLine();
+                System.out.println("Ingresa el servicio");
+                servicio = scanner.nextLine();
+                operacionesBD.actualizarMascota(id, nombreMascota, raza, nombrePropietario, servicio);
                 break;
             case 4:
                 System.out.println("Eliminar animalito");
+                System.out.println("Ingresa el id del animalito a eliminar");
+                int idEliminar = scanner.nextInt();
+                operacionesBD.eliminarMascota(idEliminar);
                 break;
             default:
-                System.out.println("Opción no válida");
+                // System.out.println("Opción no válida");
+                System.out.println("Ingresa el id del animalito que buscas");
+                int idBuscar = scanner.nextInt();
+                operacionesBD.buscarMascota(idBuscar);
                 break;
         }
     }

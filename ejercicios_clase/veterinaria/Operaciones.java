@@ -49,4 +49,53 @@ class Operaciones {
             e.printStackTrace();
         }
     }
+
+    public void actualizarMascota(int id, String nombreMascota, String raza, String nombrePropietario,
+            String servicio) {
+        String queryActualizar = "UPDATE animales SET nombreMascota = ?, raza = ?, nombrePropietario = ?, servicio = ? WHERE id = ?";
+        try (Connection connection = DriverManager.getConnection(url, usuario, password);
+                PreparedStatement preparedStatement = connection.prepareStatement(queryActualizar)) {
+            preparedStatement.setString(1, nombreMascota);
+            preparedStatement.setString(2, raza);
+            preparedStatement.setString(3, nombrePropietario);
+            preparedStatement.setString(4, servicio);
+            preparedStatement.setInt(5, id);
+            int registrosActualizados = preparedStatement.executeUpdate();
+            System.out.println("Registros actualizados: " + registrosActualizados);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void eliminarMascota(int id) {
+        String queryEliminar = "DELETE FROM animales WHERE id = ?";
+        try (Connection connection = DriverManager.getConnection(url, usuario, password);
+                PreparedStatement preparedStatement = connection.prepareStatement(queryEliminar)) {
+            preparedStatement.setInt(1, id);
+            int registrosEliminados = preparedStatement.executeUpdate();
+            System.out.println("Registros eliminados: " + registrosEliminados);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void buscarMascota(int id) {
+        String queryBuscar = "SELECT * FROM animales WHERE id = ?";
+        try (Connection connection = DriverManager.getConnection(url, usuario, password);
+                PreparedStatement preparedStatement = connection.prepareStatement(queryBuscar)) {
+            preparedStatement.setInt(1, id);
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while (resultSet.next()) {
+                int idMascota = resultSet.getInt("id");
+                String nombreMascota = resultSet.getString("nombreMascota");
+                String raza = resultSet.getString("raza");
+                String nombrePropietario = resultSet.getString("nombrePropietario");
+                String servicio = resultSet.getString("servicio");
+                System.out.println("ID: " + idMascota + " Nombre Mascota: " + nombreMascota + " Raza: " + raza
+                        + " Nombre Propietario: " + nombrePropietario + " Servicio: " + servicio);
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }
